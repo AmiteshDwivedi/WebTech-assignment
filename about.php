@@ -28,7 +28,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.php">About our developers</a>
                 </li>
-
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
@@ -46,41 +45,12 @@
             </form>
         </div>
     </nav>
-    <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/a1.jpg" alt="Nujabes" width="1100" height="500">
-                <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
-                    <p>We had such a great time in LA!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/a2.jpg" alt="Neotic" width="1100" height="500">
-                <div class="carousel-caption">
-                    <h3>Chicago</h3>
-                    <p>Thank you, Chicago!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/a3.jpg" alt="BLUME" width="1100" height="500">
-                <div class="carousel-caption">
-                    <h3>New York</h3>
-                    <p>We love the Big Apple!</p>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
+    <div class="jumbotron">
+        <h1>WebTech Lab Submission</h1>
+        <p>This website was made by Amitesh Kumar Dwivedi 199301141</p>
+        <p>This website was made by Tanay Anupam Misra 199301106</p>
+        <p>This website was made by Ishan Bhardwaj 199301098</p>
+        <p>This website was made by R Gopikrishnan 1993011106</p>
     </div>
     <section class="my-5">
         <div class="py-5">
@@ -93,38 +63,12 @@
                 </div>
                 <div class="col-lg-6" col-md-6 col-12>
                     <p class="py-3">This website was created by Amitesh , Ishan , Tanay and R Gopikrishnan for the purpose of webtech project submission. All of us have given a lot of blood and sweat into this website. At this point if you are reading , I shall let you know that my text bring will you nowhere of interest so it's better to stop reading right now if you do not want to get bored. However if you chose to get bored , I'll request you to simply read this again and again </p>
-                    <a href="about.php" class="btn btn-success"> Want to know more about the developers?</a>
                 </div>
                 <div class="col-lg-6" col-md-6 col-12>
 
                 </div>
             </div>
-            <div class="w-50 m-auto">
-                <form action="userdata.php" method="post">
-                    <div class="py-5">
-                        <h2 class="text-center"> Let us know more </h2>
-                        <label> FullName</label>
-                        <input type="text" name="user" autocomplete="off" class="form-control">
-                    </div>
-                    <div class="py-5">
-                        <label> Email</label>
-                        <input type="text" name="email" autocomplete="off" class="form-control">
-                    </div>
-                    <div class="py-5">
-                        <label> Mobile</label>
-                        <input type="text" name="mobile" autocomplete="off" class="form-control">
-                    </div>
-                    <div class="py-5">
-                        <label> Comments</label>
-                        <textarea class="form-control">
-            </textarea>
-                    </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
-                </form>
-            </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 
 </html>
